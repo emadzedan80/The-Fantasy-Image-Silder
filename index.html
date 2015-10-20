@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Fantasy Image Slider</title>
+        <link rel="stylesheet" href="css/theFantasyImageSlider.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/theFantasyImageSlider.js"></script>
+        
+        <script>
+        	$(document).ready(function(e) {
+				$('.myHomeSlides').theFantasyImageSlider({
+					slideViewTime: 2000
+				});
+			});
+        </script>
+    </head>
+    
+    <body>
+    	<div class="myNewCustomSlider">
+            <div class="myHomeSlides">
+                <img src="img/Optimized1.jpg" class="myHomeSliderImage"  alt="Optimized1"/>
+                <img src="img/Optimized2.jpg" class="myHomeSliderImage" alt="Optimized2"/>
+                <img src="img/Optimized3.jpg" class="myHomeSliderImage" alt="Optimized3"/>
+            </div>
+            <div class="dots">
+            	<div class="dot" id="dot1"></div>
+                <div class="dot" id="dot2"></div>
+                <div class="dot" id="dot3"></div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </body>
+    
+</html>

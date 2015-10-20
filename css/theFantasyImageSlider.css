@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Site Spscific Styles */
+body {
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+a, img{
+	outline:none;
+	border:0px;
+	text-decoration:none;
+	color:#000000;
+}
+/*---------------------------*/
+
+/* Slider Styles */
+.myNewCustomSlider{
+	position:relative;
+	height:100vh;
+}
+
+.myHomeSliderImage { 
+	opacity:0; 
+	display:block;
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	min-height:100%;
+}
+.dots{
+	width:110px;
+	height:20px;
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	margin-left:-45px;
+	z-index:100;
+}
+.dot{
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	border:2px solid #444444;
+	background-color:#FFFFFF;
+	float:left;
+	margin-right:15px;
+	cursor:pointer;
+}
+/*---------------------------*/
+
